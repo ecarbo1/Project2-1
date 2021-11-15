@@ -1,14 +1,19 @@
 /* ===== BASE STYLES ===== */
-
+header{
+	width:100%
+	padding: 50px;
+	background-color: #7CE538;
+}
 
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 480px){
 
-
+}
   
 
 
 @media screen and (min-width: 620px){
 
+}
