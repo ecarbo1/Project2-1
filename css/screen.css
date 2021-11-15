@@ -1,31 +1,34 @@
 /* ===== NAVIGATION STYLES ===== */
 body{
 	font-family: 'Amiri', serif;
+	background-color: #27379C;
+	margin: 0;
+    padding: 0;
+    font-size: 30px;
 }
 
-.full-width header-area{
-	background-color: #27379C;
+header{
+	width:100%;
+	padding: 50px 0 20px 0;
 }
-img{
-	padding:0;
-	margin:0;
-	float:left;
-	width: 200px;
-	height: 200px;
-}
-.top-bar-section{
+.top-bar{
 	background-color: #E4E320;
-	overflow:hidden;
-	margin: 50px 0 30px 0;
 	
 }
-
-
+.top-bar-section{
+	overflow:hidden;
+	
+}
+.top-bar-section .left img{
+	width:200px;
+	heigth:200px;
+	float:left;
+}
 .top-bar-section .left a{
 	float: left;
 	color: #0C1862;
 	text-align:center;
-	padding: 20px 10px 20px 10px;
+	padding: 80px 10px 90px 10px;
 	text-decoration: none;
 	font-size: 30px;
 }
@@ -42,9 +45,9 @@ img{
 	float: right;
 	color: #0C1862;
 	text-align:center;
-	padding: 20px 10px 20px 10px;
+	padding: 80px 10px 90px 10px;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 25px;
 }
 /* Change the color of links on hover */
 .top-bar-section .right a:hover {
@@ -55,7 +58,6 @@ img{
 .top-bar-section .right a.active {
   color: #5FCB77;
 }
-
 
 /* ===== LAYOUT STYLES =====*/
 
