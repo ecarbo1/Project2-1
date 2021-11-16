@@ -1,4 +1,7 @@
-/* ===== NAVIGATION STYLES ===== */
+/* ===== LAYOUT STYLES =====*/
+html{
+	width: auto;
+}
 body{
 	font-family: 'Amiri', serif;
 	background-color: #27379C;
@@ -9,56 +12,70 @@ body{
 
 header{
 	width:100%;
-	padding: 50px 0 20px 0;
+	margin:0;
 }
+header img{
+	width:200px;
+	height:200px;
+	float:left;
+	padding:0 25px 0 0;
+}
+
+/* ===== NAVIGATION STYLES ===== */
+
 .top-bar{
-	background-color: #E4E320;
+	background-color: #F2F14C;
+	
 	
 }
 .top-bar-section{
 	overflow:hidden;
-	
 }
-.top-bar-section .left img{
-	width:200px;
-	heigth:200px;
-	float:left;
-}
+
 .top-bar-section .left a{
 	float: left;
 	color: #0C1862;
+	background-color: #5FCB77;
 	text-align:center;
-	padding: 80px 10px 90px 10px;
+	margin: 57.5px 5px 57.5px 5px;
+	padding: 30px 25px 30px 25px;
+	border-radius: 35px;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 25px;
+	
 }
 /* Change the color of links on hover */
 .top-bar-section .left a:hover {
-  color: #0A8A26;
+	color: #0A8A26;
+	background-color: #FFFE78;
+	margin: 60px 10px 60px 10px;
+	padding:25px 30px 25px 30px;
+	border-radius: 50px;
+	font-size:30px;
+	box-shadow: 4px 5px 4px #4351A6;
 }
 
 /* Add a color to the active/current link */
 .top-bar-section .left a.active {
-  color: #5FCB77;
+	color: #5FCB77;
+	background-color:#FFFE78;
 }
 .top-bar-section .right a{
 	float: right;
 	color: #0C1862;
 	text-align:center;
-	padding: 80px 10px 90px 10px;
+	padding: 85px 20px 85px 0px;
 	text-decoration: none;
 	font-size: 25px;
 }
 /* Change the color of links on hover */
 .top-bar-section .right a:hover {
-  color: #0A8A26;
+  	color: #6571BC;
 }
 
-/* Add a color to the active/current link */
-.top-bar-section .right a.active {
-  color: #5FCB77;
-}
 
-/* ===== LAYOUT STYLES =====*/
+
+
+
 
 /* ===== STATE STYLES ===== */
