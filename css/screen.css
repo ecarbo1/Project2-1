@@ -123,11 +123,46 @@ header img{
 }
 
 .row2{
-	width:50%;
+	width:60%;
 	float: left;
+	background-color: #18AC39;
+	color: white;
+}
+.row2 .about-section{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.row2 .about-section h2{
+	font-size: 1.5em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 15px;
+}
+.row2 .about-section p{
+	font-size: 1em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-style: italic;
+}
+.row2 .about-section button{
+	width: 60%;
+	margin-left: 15%;
+	margin-right: 25%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background-color: #F2F14C;
+	color:#0C1862;
 }
 .row3{
-	width:50%;
+	width:40%;
 	float:left;
 }
+.row3 img{
+	
+}
+
+/* ===== FOOTER STYLES =====*/
+
 /* ===== STATE STYLES ===== */
