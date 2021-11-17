@@ -1,0 +1,168 @@
+/* ===== LAYOUT STYLES =====*/
+html{
+	width: auto;
+}
+body{
+	font-family: 'Amiri', serif;
+	background-color: #27379C;
+	margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+header{
+	width:100%;
+}
+header img{
+	width:200px;
+	height:200px;
+	float:left;
+	padding:0 25px 0 0;
+}
+
+/* ===== NAVIGATION STYLES ===== */
+
+.top-bar{
+	background-color: #F2F14C;	
+}
+.top-bar-section{
+	overflow:hidden;
+}
+
+.top-bar-section .left a{
+	float: left;
+	color: #0C1862;
+	background-color: #5FCB77;
+	text-align:center;
+	margin: 57.5px 5px 57.5px 5px;
+	padding: 30px 25px 30px 25px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-size: 25px;
+	
+}
+/* Change the color of links on hover */
+.top-bar-section .left a:hover {
+	color: #0A8A26;
+	background-color: #FFFE78;
+	margin: 60px 10px 60px 10px;
+	padding:25px 30px 25px 30px;
+	border-radius: 50px;
+	font-size:30px;
+	box-shadow: 4px 5px 4px #4351A6;
+}
+
+/* Add a color to the active/current link */
+.top-bar-section .left a.active {
+	color: #5FCB77;
+	background-color:#FFFE78;
+}
+.top-bar-section .right a{
+	float: right;
+	color: #0C1862;
+	text-align:center;
+	padding: 85px 20px 85px 0px;
+	text-decoration: none;
+	font-size: 25px;
+}
+/* Change the color of links on hover */
+.top-bar-section .right a:hover {
+	color: #6571BC;
+}
+
+/* =====CONTENT STYLES =====*/
+#slider {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+#slider ul {
+	position: relative;
+	list-style: none;
+	height: 100%;
+	width: 10000%;
+	padding: 0;
+	margin: 0;
+	transition: all 750ms ease;
+	left: 0;
+}
+#slider ul li {
+	position: relative;
+	height: 100%;
+	float: left;
+}
+#slider ul li img{
+	width: 100%;
+	height: 500px;
+}
+#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+
+.row2{
+	width:60%;
+	float: left;
+	background-color: #18AC39;
+	color: white;
+}
+.row2 .about-section{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.row2 .about-section h2{
+	font-size: 1.5em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 15px;
+}
+.row2 .about-section p{
+	font-size: 1em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-style: italic;
+}
+.row2 .about-section button{
+	width: 60%;
+	margin-left: 15%;
+	margin-right: 25%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background-color: #F2F14C;
+	color:#0C1862;
+}
+.row3{
+	width:40%;
+	float:left;
+}
+.row3 img{
+	
+}
+
+/* ===== FOOTER STYLES =====*/
+
+/* ===== STATE STYLES ===== */
