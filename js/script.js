@@ -1,3 +1,14 @@
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+/*
+
 var slider = document.getElementById("slider");
 var sliderWidth = slider.offsetWidth;
 var slideList = document.getElementById("slideWrap");
@@ -48,5 +59,6 @@ setInterval(function() {
 }, 5000);
 
 window.onload = function() {
-responsiveSlider();  
+	responsiveSlider();  
 }
+*/
