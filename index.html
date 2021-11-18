@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
   		<title>Home Page</title>
-  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" media="screen" href="css/reset.css" />
   		<link rel="stylesheet" media="screen" href="css/screen.css" />
   		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
@@ -14,48 +14,27 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 	<body>	
-		<!-- HEADER AREA -->
-		<header >
-			<a href="index.html"><img src = "images/logo.jpg" alt = "logo Picture"></a>
-		</header>
-			<!-- NAVIGATION AREA -->
-		<nav class="top-bar">
-			<!-- The Section wrap -->
-			<div class="top-bar-section">
-				<!-- Left Nav Section -->
-				<ul class="left">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="contact.html">Contact us</a></li>
-				</ul>
-
-				<!-- Right Nav Section -->
-				<ul class="right">
-					<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.instagram.com/internationalsociety/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.linkedin.com/company/unavailable/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				</ul>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="logo">
+				</div>
+				<a href="#" class="active">Home</a>
+				<a href="contact.html">Contact Us</a>
+				<a href="about.html">About Us</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
 		</nav>
 		
-		<!-- CONTENT AREA -->
-		<div id="content-wrapper">
-			
-			<div class="row1">
-				<div id="slider">
-					<ul id="slideWrap"> 
-					  <li>
-					  	<img src="images/img1.jpg" alt="image1">
-						<h1>International Society for Universal Dialogue</h1>
-					  </li>
-					  <li><img src="images/img2.jpeg" alt="image2"></li>
-					  <li><img src="images/img3.jpeg" alt="image3"></li>
-					  
-					</ul>
-					<a id="prev" href="#">&#8810;</a>
-					<a id="next" href="#">&#8811;</a>
-				  </div>
+		<div class="image-container">
+			<img src="images/img1.jpg" alt="logo">
+			<div class="centered">
+				<h1>The International Society for Universal Dialogue</h1>
+				<button type="button">Contact Us</button>
 			</div>
+		</div>
+		<!-- CONTENT AREA 
+		<div id="content-wrapper">
 			<div class="row2">
 				<div class="about-section">
 					<h2><strong>About</strong></h2>
@@ -66,10 +45,10 @@
 			<div class="row3">
 				<img src = "images/AK.jpg" alt = "ak">
 			</div>
-		</div>
+		</div>-->
 
 		<!-- FOOTER AREA -->
-		<div id="footer-wrapper">
+		<div class="footer-wrapper">
 			<div class="row">
 				<h3><strong>International Society for Universal Dialogue</strong></h3>
 			</div>
@@ -81,7 +60,7 @@
 				</ul>
 			</div>
 			<div class="footer-notes">
-				<p>&copy; 2021 by Nida Akkiswala, Eduardo Carbo, Oleksandr Lemeha</p>
+				<p> &copy; 2021 by Nida Akkiswala, Eduardo Carbo, Oleksandr Lemeha</p>
 			</div>
 		</div>	
 	
