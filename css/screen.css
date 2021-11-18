@@ -141,7 +141,7 @@ body{
 	width: 60%; /* Set the width of the positioned div */
 }
 .image-container .centered h1{
-	font-size: 45px;
+	font-size: 40px;
 	padding: 5px;
 }
 .image-container .centered button{
@@ -204,8 +204,8 @@ body{
 	text-align: center;
 	color: white;
 	padding: 10px;
-	
 }
+
 /* ===== STATE STYLES ===== */
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;}
@@ -223,15 +223,14 @@ body{
 		float:left;
 		display: block;	
 	}
-	.image-container img{
-		width:600px;
+	.image-container .centered{
+		
 	}
-	
-	
-
-}
-
-@media screen and (max-width: 600px) {
+	.image-container .centered h1{
+		font-size: px;
+		padding: 5px;
+	}
+	/*responsive css for nav bar*/
 	.topnav.responsive {position: relative;}
 	.topnav.responsive .icon {
 		position: absolute;
@@ -251,6 +250,6 @@ body{
 		font-size:25px;
 		border-radius: 0px;
 	}
-	
 }
+
 
