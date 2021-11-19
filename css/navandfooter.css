@@ -31,7 +31,6 @@ body{
 	float:left;
 	display: block;
 	margin-right: 55px;
-	object-fit:cover;
 }
 
 .topnav a {
