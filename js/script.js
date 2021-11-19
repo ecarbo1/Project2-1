@@ -13,3 +13,6 @@ function myAboutClick(){
 function myContactClick(){
 	window.location.href="contact.html";
 }	
+function myLogoClick(){
+	window.location.href="index.html";
+}
