@@ -4,13 +4,13 @@ html{
 	width: auto;
 	font-family: 'Amiri', serif;
 	background-color: #27379C;
-	margin: 0;
-    padding: 0;
-    
 }
 body{
 	font-size: 30px;
 	max-width: 960px;
+	margin: auto;
+	background-color: #132889; 
+	padding: 10px;
 }
 
 /* ===== NAVIGATION STYLES ===== */
@@ -19,7 +19,7 @@ body{
 .topnav {
 	overflow: hidden;
 	background-color: #F2F14C;
-	margin: 20px 0;
+	margin-bottom: 20px;
 
 }
 .topnav .logo{
