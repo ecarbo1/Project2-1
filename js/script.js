@@ -7,3 +7,9 @@ function myFunction() {
   }
 }
 
+function myAboutClick(){
+	window.location.href="about.html";
+}
+function myContactClick(){
+	window.location.href="contact.html";
+}	

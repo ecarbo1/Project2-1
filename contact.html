@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" media="screen" href="css/reset.css" />
 		<link rel="stylesheet" media="screen" href="css/style.css" />
+		<link rel="stylesheet" media="screen" href="css/navandfooter.css">
 		<script src="js/script.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +13,15 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<header>
-			<a href="contact.html"><img src= "images/logo.jpg" alt = "logo picture"></a>
-		</header>
-		<nav class="top-bar">
-			<div class="top-bar-selection">
-				<ul class="left">
-					<li><a href="index.html">Home</a><li>
-					<li><a href="about.html">About Us</a><li>
-					<li><a href="contact.html">Contact us</a></li>
-				</ul>
-				<ul class="right">
-					<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.instagram.com/internationalsociety/?h1=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.linkedin.com/company/unavailable/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				</ul>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="logo">
+				</div>
+				<a href="index.html">Home</a>
+				<a href="#" class="active"">Contact Us</a>
+				<a href="about.html">About Us</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
 		</nav>
 	<section class="contact_info">
@@ -60,5 +55,22 @@
 			</div>
 	</section>
 	<input id="submit" type="submit" value="Submit Information">
+	<!-- FOOTER AREA -->
+	<div class="footer-wrapper">
+		<div class="row">
+			<h3><strong>International Society for Universal Dialogue</strong></h3>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/internationalsociety/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/unavailable/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-notes">
+			<p> &copy; 2021 by Nida Akkiswala, Eduardo Carbo, Oleksandr Lemeha</p>
+		</div>
+	</div>	
+	
 </body>
 </html> 
