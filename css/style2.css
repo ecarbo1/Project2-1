@@ -21,17 +21,12 @@ h2 {
   margin: auto;
 }
 
-#input-submit {
-  padding-top: 1em;
-  height: 35px;
-}
 
 input[type="submit"] {
-  background-color: #000000;
-  color: white;
+  background-color: #FFFD00;
+  color: black;
   height: 45px;
   font-size: .8em;
-}
 }
 
 input{ 
