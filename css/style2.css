@@ -21,14 +21,6 @@ h2 {
   margin: auto;
 }
 
-
-input[type="submit"] {
-  background-color: #FFFD00;
-  color: black;
-  height: 45px;
-  font-size: .8em;
-}
-
 input{ 
   padding: 8px 8px;
   margin: 5px;
