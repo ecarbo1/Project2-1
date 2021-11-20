@@ -104,7 +104,7 @@ section{
   width: 35%;
   height: 2em;
   background-color: #F2F14C;
-  color: #FFFD00;
+  color: white;
   font-size: 1.25em;
   margin: auto;
 }
@@ -112,6 +112,8 @@ section{
 #contact_info input{ 
   width: 40%;
   padding-top: 5%;
+  padding: 6%;
+  text-align: center;
 }
 
 #contact_info label {
