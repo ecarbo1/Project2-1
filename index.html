@@ -5,6 +5,7 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" media="screen" href="css/reset.css" />
   		<link rel="stylesheet" media="screen" href="css/screen.css" />
+  		<link rel="stylesheet" media="screen" href="css/navandfooter.css">
   		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -17,12 +18,12 @@
 		<nav>
 			<div class="topnav" id="myTopnav">
 				<div class="logo">
-					<img src="images/logo.jpg" alt="logo">
+					<img src="images/logo.jpg" alt="logo" onClick="myLogoClick()">
 				</div>
 				<a href="#" class="active">Home</a>
 				<a href="contact.html">Contact Us</a>
 				<a href="about.html">About Us</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+				<a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
 		</nav>
 		
@@ -30,22 +31,23 @@
 			<img src="images/img1.jpg" alt="logo">
 			<div class="centered">
 				<h1>The International Society for Universal Dialogue</h1>
-				<button type="button">Contact Us</button>
+				<button type="button" onClick="myContactClick()">Contact Us</button>
 			</div>
 		</div>
-		<!-- CONTENT AREA 
-		<div id="content-wrapper">
+		<!-- CONTENT AREA -->
+		<div class="content-wrapper">
 			<div class="row2">
 				<div class="about-section">
 					<h2><strong>About</strong></h2>
 					<p>ISUD is a philosophical society dedicated to promoting international and intercultural dialogue among an ever-wider segment of humanity.</p>
-					<button type="button" onclick="about.html">About Us</button> 
+					<button type="button" onClick="myAboutClick()">About Us</button> 
 				</div>
 			</div>
 			<div class="row3">
-				<img src = "images/AK.jpg" alt = "ak">
+				<img src = "images/JK.jpg" alt = "ak" onClick="myAboutClick()">
+				<p>Image of <strong>Janusz Kuczyński</strong>,  the founding President of the International Society for Universalism (ISU), later called the International Society for Universal Dialogue.</p>
 			</div>
-		</div>-->
+		</div>
 
 		<!-- FOOTER AREA -->
 		<div class="footer-wrapper">
