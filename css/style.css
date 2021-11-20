@@ -108,12 +108,13 @@ section{
   font-size: 1.25em;
   margin: auto;
 }
+
 #contact_info input{ 
-	width: 40%;
-	padding-top: 5%;
+  width: 40%;
+  padding-top: 5%;
 }
 
-label {
+#contact_info label {
   color: #FFFD00;
   font-family: 'Crimson Text', serif;
   text-align: center;
