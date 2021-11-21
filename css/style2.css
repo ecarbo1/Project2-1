@@ -19,6 +19,7 @@ h2 {
   color: black;
   font-size: 1em;
   margin: auto;
+  text-align: center;
 }
 
 input{ 
@@ -33,7 +34,10 @@ label {
   font-family: 'Crimson Text', serif;
   text-align: center;
   font-size: 1em;
+  font-color: white;
 }
+
+
 
 .topnav {
 	overflow: hidden;
